@@ -37,6 +37,5 @@ let my_sprite = sprites.create(img`
 controller.moveSprite(my_sprite)
 while (true) {
     test = my_sprite.x
-    console.log(test)
     pause(100)
 }
