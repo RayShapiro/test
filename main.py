@@ -36,8 +36,10 @@ my_sprite = sprites.create(img("""
     SpriteKind.player)
 controller.move_sprite(my_sprite)
 
+# Add a different comment
 #add a comment
+
 while True:
     test = my_sprite.x
-    print(test)
     pause(100)
+

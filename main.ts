@@ -35,9 +35,8 @@ let my_sprite = sprites.create(img`
             ................................
     `, SpriteKind.Player)
 controller.moveSprite(my_sprite)
-// add a comment
+
 while (true) {
     test = my_sprite.x
-    console.log(test)
     pause(100)
 }
