@@ -35,6 +35,7 @@ let my_sprite = sprites.create(img`
             ................................
     `, SpriteKind.Player)
 controller.moveSprite(my_sprite)
+//  Add a different comment
 while (true) {
     test = my_sprite.x
     pause(100)
